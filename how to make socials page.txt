@@ -1,0 +1,23 @@
+1. Copy pages/socials/example.html and rename it to your name (.html)
+2. add a link in pages/team.html by copying the template below and pasting it into the <div class="item-row"></div> tag with the others (they should have a similar structure)
+
+<div class="item">
+  <a href="socials/example.html"><img class="box" src="../assets/socials/placeholder.png"></a>
+  <a class="caption hover-text">Username - Roles</a>
+</div>
+
+3. fill in the fields for the item div and your socials page.
+
+BONUS - by using all of the tags listed below, you can add small icons to your profile under platforms
+
+<bsky-icon>
+<discord-icon> (WIP)
+<github-icon>
+<insta-icon>
+<reddit-icon>
+<steam-icon>
+<tiktok-icon>
+<tumblr-icon>
+<twitch-icon>
+<twitter-icon>
+<youtube-icon>

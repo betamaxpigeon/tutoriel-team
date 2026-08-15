@@ -1,12 +1,13 @@
 @font-face {
-  font-family: "Determination Mono";
-  src: url(assets/determination-mono.woff2) format("woff2");
+  font-family: "8Bit Operator Plus - Bold";
+  src: url(assets/8bitOperatorPlus-Bold.woff) format("woff");
 }
 
 @font-face {
-  font-family: "Pixel Operator";
-  src: url(assets/pixel-operator.woff2) format("woff2");
+  font-family: "8Bit Operator Plus - Regular";
+  src: url(assets/8bitOperatorPlus-Regular.woff) format("woff");
 }
+
 
 @font-face {
   font-family: "Comic Sans";
@@ -25,7 +26,7 @@ html {
 body {
   margin: 0;
   background-color: black;
-  font-family: "Determination Mono", sans-serif;
+  font-family: "8Bit Operator Plus - Bold", sans-serif;
   color: white;
   line-height: 1.4;
 }
@@ -48,7 +49,7 @@ a {
 }
 
 .newsletter-text {
-  font-family: "Pixel Operator";
+  font-family: "8Bit Operator Plus - Regular";
   font-size: 1.5rem;
   width: 40%;
   margin: 0 auto;
@@ -135,7 +136,7 @@ a {
 .titlebar-nav a {
   color: white;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px;
   margin-right: 20px;
   justify-content: space-evenly;
 }
@@ -144,7 +145,7 @@ a {
   color: yellow;
 }
 
-.box {
+.box-cover {
   background-color: black;
   border: 5px white;
   width: 256px;
@@ -158,7 +159,7 @@ a {
   object-fit: cover;
 }
 
-.box-no-stretch {
+.box-contain {
   background-color: black;
   border: 5px white;
   width: 256px;
@@ -172,19 +173,17 @@ a {
   object-fit: contain;
 }
 
-.box,
-.box-no-stretch {
-  transition: 
-    border-color 0s; 
+.box-cover,
+.box-contain {
+  transition: border-color 0s; 
 }
 
-.box:hover,
-.box-no-stretch:hover,
-.box.is-hovered,
-.box-no-stretch.is-hovered {
+.box-cover:hover,
+.box-contain:hover,
+.box-cover.is-hovered,
+.box-contain.is-hovered {
   border-color: yellow;
-  transition: 
-    border-color 0s;
+  transition: border-color 0s;
 }
 
 .news-box {
@@ -199,35 +198,13 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   object-fit: contain;
-}
-
-.news-box-no-stretch {
-  background-color: black;
-  border: 5px white;
-  width: 256px;
-  height: 192px;
-  padding: 0px;
-  margin-top: auto;
-  border-style: solid;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  object-fit: contain;
-}
-
-.news-box,
-.news-box-no-stretch {
-  transition: 
-    border-color 0s; 
+  transition: border-color 0s; 
 }
 
 .news-box:hover,
-.news-box-no-stretch:hover,
-.news-box.is-hovered,
-.news-box-no-stretch.is-hovered {
+.news-box.is-hovered {
   border-color: yellow;
-  transition: 
-    border-color 0s;
+  transition: border-color 0s;
 }
 
 .clickable {
@@ -485,7 +462,7 @@ youtube-icon {
   background-repeat: no-repeat;
   vertical-align: -0.15em;
   content: "";
-  background-image: url(images/youtube.png);
+  background-image: url(assets/youtube.png);
 }
 
 twitch-icon {
@@ -496,7 +473,7 @@ twitch-icon {
   background-repeat: no-repeat;
   vertical-align: -0.15em;
   content: "";
-  background-image: url(images/twitch.png);
+  background-image: url(assets/twitch.png);
 }
 
 tiktok-icon {
@@ -507,7 +484,7 @@ tiktok-icon {
   background-repeat: no-repeat;
   vertical-align: -0.15em;
   content: "";
-  background-image: url(images/tiktok.png);
+  background-image: url(assets/tiktok.png);
 }
 
 insta-icon {
@@ -518,7 +495,7 @@ insta-icon {
   background-repeat: no-repeat;
   vertical-align: -0.15em;
   content: "";
-  background-image: url(images/instagram.png);
+  background-image: url(assets/instagram.png);
 }
 
 tumblr-icon {
@@ -529,7 +506,7 @@ tumblr-icon {
   background-repeat: no-repeat;
   vertical-align: -0.15em;
   content: "";
-  background-image: url(images/tumblr.png);
+  background-image: url(assets/tumblr.png);
 }
 
 github-icon {
@@ -540,7 +517,7 @@ github-icon {
   background-repeat: no-repeat;
   vertical-align: -0.15em;
   content: "";
-  background-image: url(images/github.png);
+  background-image: url(assets/github.png);
 }
 
 steam-icon {
@@ -551,7 +528,7 @@ steam-icon {
   background-repeat: no-repeat;
   vertical-align: -0.15em;
   content: "";
-  background-image: url(images/steam.png);
+  background-image: url(assets/steam.png);
 }
 
 reddit-icon {
@@ -562,7 +539,7 @@ reddit-icon {
   background-repeat: no-repeat;
   vertical-align: -0.15em;
   content: "";
-  background-image: url(images/reddit.png);
+  background-image: url(assets/reddit.png);
 }
 
 bsky-icon {
@@ -573,7 +550,7 @@ bsky-icon {
   background-repeat: no-repeat;
   vertical-align: -0.15em;
   content: "";
-  background-image: url(images/bluesky.png);
+  background-image: url(assets/bluesky.png);
 }
 
 twitter-icon {
@@ -584,7 +561,7 @@ twitter-icon {
   background-repeat: no-repeat;
   vertical-align: -0.15em;
   content: "";
-  background-image: url(images/twitter.png);
+  background-image: url(assets/twitter.png);
 }
 
 @media (max-width: 768px) {
