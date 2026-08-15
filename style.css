@@ -631,6 +631,10 @@ twitter-icon {
     height: auto;
     min-height: 220px;
   }
+
+  .newsletter-text {
+    width: 90%;
+  }
 }
 
 @media (max-width: 480px) {
