@@ -14,6 +14,11 @@
   src: url(assets/comic-sans.woff2) format("woff2");
 }
 
+@font-face {
+  font-family: "Determination Mono";
+  src: url(assets/Determination\ Mono.woff2) format("woff2");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -43,18 +48,19 @@ a {
   color: inherit;
 }
 
-.header {
+.news-header {
   text-align: center;
-  font-size: 350%;
+  font-size: 200%;
 }
 
 .newsletter-text {
   font-family: "8Bit Operator Plus - Regular";
-  font-size: 1.5rem;
-  width: 40%;
+  font-size: 1.25rem;
+  width: 45%;
   margin: 0 auto;
   text-align: left;
   line-height: 1.5;
+  text-wrap: pretty;
 }
 
 .newsletter-img {
@@ -296,11 +302,16 @@ a {
 }
 
 .socials-aboutme p {
+  font-family: "8Bit Operator Plus - Regular";
   line-height: 1.3;
 }
 
 .socials-aboutme h1 {
   line-height: 0.9rem;
+}
+
+.socials-aboutme h2 {
+  font-family: "Determination Mono";
 }
 
 .image-row {
