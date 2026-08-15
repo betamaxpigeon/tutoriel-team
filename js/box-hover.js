@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.box, .box-no-stretch').forEach((box) => {
+  document.querySelectorAll('.box-cover, .box-contain', '.news-box').forEach((box) => {
     const caption = box.closest('.item')?.querySelector('a.hover-text');
 
     if (!caption) return;
