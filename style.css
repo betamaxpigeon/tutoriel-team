@@ -19,6 +19,11 @@
   src: url(assets/Determination\ Mono.woff2) format("woff2");
 }
 
+@font-face {
+  font-family: "JF-Dot-Shinonome-14-Regular";
+  src: url(assets/fonts/JF-Dot-Shinonome-14-Regular.woff) format("woff");
+}
+
 * {
   box-sizing: border-box;
 }
