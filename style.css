@@ -139,6 +139,10 @@ a {
   border: 2px solid white;
 }
 
+.titlebar-logo:hover {
+  border-color: yellow;
+}
+
 .titlebar-nav {
   display: flex;
   flex-wrap: wrap;
