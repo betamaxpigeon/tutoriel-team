@@ -57,12 +57,20 @@ a {
   text-align: center;
   font-size: 200%;
   color: yellow;
+<<<<<<< Updated upstream
+=======
+}
+
+.news-title {
+  text-align: center;
+  font-size: 300%;
+>>>>>>> Stashed changes
 }
 
 .newsletter-text {
   font-family: "8Bit Operator Plus - Regular";
   font-size: 1.25rem;
-  width: 45%;
+  width: 30%;
   margin: 0 auto;
   text-align: left;
   line-height: 1.5;
